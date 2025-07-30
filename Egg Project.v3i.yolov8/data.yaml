@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Eggs']
+
+roboflow:
+  workspace: lanreeni
+  project: egg-project-hds0p
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/lanreeni/egg-project-hds0p/dataset/3
